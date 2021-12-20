@@ -11,7 +11,7 @@ const seo = {
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Mamadou K. Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,11 +19,11 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Mamadou K. KEITA",
+  logo_name: "Mamadou K.",
+  nickname: "MKLD authentic",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A computer Science Student and Full Stack developer with focus on web development, design, program management, and coordinate with stakeholders",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -41,22 +41,10 @@ const socialMediaLinks = [
   // instagram: "https://www.instagram.com/layman_brother/"
 
   {
-    name: "Github",
-    link: "https://github.com/ashutosh1919",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
@@ -65,75 +53,22 @@ const socialMediaLinks = [
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
     name: "Facebook",
     link: "https://www.facebook.com/laymanbrother.19/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building resposive website front end using React/Bootstrap",
+        "⚡ Developing mobile applications front end using React Native",
+        "⚡ Creating application backend in Django",
       ],
       softwareSkills: [
         {
@@ -151,8 +86,8 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
             color: "#CC6699",
           },
@@ -173,10 +108,10 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
           style: {
-            color: "#339933",
+            backgroundColor: "#transparent",
           },
         },
         {
@@ -193,22 +128,43 @@ const skills = {
             color: "#2C8EBB",
           },
         },
+      ],
+    },
+    {
+      title: "Robotics & 3D Design",
+      fileName: "RoboticsImg",
+      skills: [
+        "⚡ Developing 3D prototypes using computer-aided design and drafting (CADD) softwares ",
+        "⚡ Experience of working with python, VEX, SnapCad, Arduino, and SketchUP projects",
+        "⚡ Teaching basic robotics ",
+      ],
+      softwareSkills: [
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Arduino",
+          fontAwesomeClassname: "logos-arduino",
           style: {
-            color: "#663399",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "Sketchup",
+          fontAwesomeClassname: "simple-icons:sketchup",
           style: {
-            color: "#02569B",
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
       ],
     },
+    /*   
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
@@ -277,41 +233,38 @@ const skills = {
         },
       ],
     },
+  */
+
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Project management",
+      fileName: "ManagementImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Developing and managing project budgets, schedules, and timelines",
+        "⚡ Making timely decisions based on facts, circumstances, and needs",
+        "⚡ Preparing and delivering presentations",
+        "⚡ Determining the validity of project progress",
+        "⚡ Documenting projects",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Asana",
+          fontAwesomeClassname: "simple-icons:asana",
           style: {
             color: "#FF2BC2",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Github",
+          fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#F24E1E",
+            color: "Black",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Microsoft Office",
+          fontAwesomeClassname: "simple-icons:microsoft",
           style: {
             color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
@@ -449,7 +402,7 @@ const certifications = {
       color_code: "#0C9D5899",
     },
     {
-      title: "DL on Tensorflow",
+      title: "DL on",
       subtitle: "- Laurence Moroney",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
@@ -626,7 +579,7 @@ const experience = {
           duration: "July 2019 - PRESENT",
           location: "Work From Home",
           description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
           color: "#181717",
         },
       ],
