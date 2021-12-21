@@ -164,7 +164,7 @@ const skills = {
         },
       ],
     },
-    /*   
+    /*   Reserve section
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
