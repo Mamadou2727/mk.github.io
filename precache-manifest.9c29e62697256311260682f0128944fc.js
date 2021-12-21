@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cf6bb918553788bab6cd3b7c1a8bc2d",
+    "revision": "13cfed9d1b1c4b57529e55c1b07cf1d2",
     "url": "/mk.github.io/index.html"
   },
   {
-    "revision": "cb6102c32bc857319ca0",
-    "url": "/mk.github.io/static/css/main.e94ebed8.chunk.css"
+    "revision": "5e182c0f23e9d296c8c2",
+    "url": "/mk.github.io/static/css/main.3c78487d.chunk.css"
   },
   {
-    "revision": "bde98056ec7e318ed1a8",
-    "url": "/mk.github.io/static/js/2.e01d3f40.chunk.js"
+    "revision": "769ada779fedab55abdf",
+    "url": "/mk.github.io/static/js/2.253e710a.chunk.js"
   },
   {
-    "revision": "cb6102c32bc857319ca0",
-    "url": "/mk.github.io/static/js/main.26e5212e.chunk.js"
+    "revision": "5e182c0f23e9d296c8c2",
+    "url": "/mk.github.io/static/js/main.9cf1d9fe.chunk.js"
   },
   {
     "revision": "c09a23bb4399b3c71ae6",
@@ -196,6 +196,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mk.github.io/static/media/iiitk_logo.571a8584.png"
   },
   {
+    "revision": "b8c2526d6239b52db97adee17c25ab44",
+    "url": "/mk.github.io/static/media/innovation.b8c2526d.gif"
+  },
+  {
     "revision": "29152cf756a1facead5393c32e373371",
     "url": "/mk.github.io/static/media/intel_logo.29152cf7.jpg"
   },
@@ -210,6 +214,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83ac24fb968a474c6a63f7a4e9a8f62c",
     "url": "/mk.github.io/static/media/manOnTable.83ac24fb.svg"
+  },
+  {
+    "revision": "77a510c90abbe2e4884242b0ec646bb9",
+    "url": "/mk.github.io/static/media/management.77a510c9.gif"
   },
   {
     "revision": "069938a84edd6ebf383c318e9feb5d4c",
@@ -228,12 +236,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mk.github.io/static/media/programmer.5faf790b.svg"
   },
   {
+    "revision": "c504b80a5e418c54471fb3e75e7eab00",
+    "url": "/mk.github.io/static/media/programmer.c504b80a.gif"
+  },
+  {
     "revision": "b8ba948796d7ab532673c5ed2f315e74",
     "url": "/mk.github.io/static/media/projects_image.b8ba9487.svg"
   },
   {
+    "revision": "1799a318991f4cf327b0edbfbc6f8aad",
+    "url": "/mk.github.io/static/media/proud.1799a318.gif"
+  },
+  {
     "revision": "71408db71465afd742233e4a96f06526",
     "url": "/mk.github.io/static/media/pwa.71408db7.png"
+  },
+  {
+    "revision": "3fbce79ce1b5eb9612e54fdee2e3a9c5",
+    "url": "/mk.github.io/static/media/robotics.3fbce79c.gif"
   },
   {
     "revision": "2c497738be3831492aeb6bdc43f19154",
