@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Mamadou K. Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://mamadouk.me/",
   },
 };
 
