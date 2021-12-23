@@ -25,36 +25,33 @@ const greeting = {
   subTitle:
     "A computer Science Student and Full Stack developer with focus on web development, design, program management, and coordinate with stakeholders",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1yTyWXjdmi3TFhV7XMkOb-sZ1HGUYIZZx/view?usp=sharing",
+  portfolio_repository: "",
+  githubProfile: "https://github.com/Mamadou2727",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+  // github: "https://github.com/Mamadou2727",
+  // linkedin: "https://www.linkedin.com/in/mamadou-k-keita-503555168",
+  // gmail: "mamadouk393@gmail.com",
+  // facebook: "https://www.facebook.com/profile.php?id=100010946050885",
 
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    link: "https://www.linkedin.com/in/mamadou-k-keita-503555168",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:mamadouk393@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/profile.php?id=100010946050885",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
@@ -275,7 +272,7 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
+    /*{
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
@@ -314,24 +311,37 @@ const competitiveSites = {
         color: "#20BEFF",
       },
       profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    },*/
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "African Leadership Academy",
+      subtitle: "High School Diploma",
+      logo_path: "ala_logo.png",
+      alt_name: "ALA",
+      duration: "2019 - 2021",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied Entrepreneurial leadership, African Studies Politics of Natural resources & Politics of Governance.",
+        "⚡ In addition, I received in-depth training on entrepreneurship, business creation, and project management.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.africanleadershipacademy.org/",
+    },
+
+    {
+      title: "Cambridge Assessment International Education",
+      subtitle: "AS & A-LEVEL. in Computer Science & Mathematics",
+      logo_path: "cambridge_logo.png",
+      alt_name: "Cambridge",
+      duration: "2019 - Present",
+      descriptions: [
+        "⚡ I have studied basic Computer Science subjects like  information representation, communication & Internet technologies, hardware, software development,relational database modelling, computational thinking, problem solving, computer-based solutions, algorithms and programming languages. ",
+        "⚡ Apart from this, I have done courses on Data Science, Cloud native foundation and AI.",
+        "⚡ I have studied Pure Mathematics and Probability & Statistics.",
+      ],
+      website_link: "https://www.cambridgeinternational.org/",
     },
   ],
 };
@@ -339,112 +349,49 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Recognition Reward",
+      subtitle: "- Pan-African Robotics Competition",
+      logo_path: "parc_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+        "https://drive.google.com/file/d/1v8dmmESrhXgLdVsvzFkmjZKoV8_YtwA8/view?usp=drivesdk",
+      alt_name: "- PARC",
+      color_code: "white",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "STEM & Robotics",
+      subtitle: "- EMMME",
+      logo_path: "robotsmali_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://drive.google.com/file/d/1uxi6M46DM_eT1Z5_imojQdjH3ayf7l1-/view?usp=sharing",
+      alt_name: "STEM",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Data Science & AI",
+      subtitle: "- Bertelsmann Scholarship",
+      logo_path: "udacity_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://drive.google.com/file/d/1tbOPgMYWPsxJgeztYodlAQdb2InMDHgM/view",
+      alt_name: "Udacity",
+      color_code: "white",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "Cloud Native Foundation",
+      subtitle: "- SUSE Scholarship",
+      logo_path: "udacity_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://drive.google.com/file/d/1xYYjKVfeYJT2S9yRrqypTZGm8wEYxQG8/view",
+      alt_name: "Udacity",
+      color_code: "white",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "Developing, Mentoring & Supporting Youth Leadership",
+      subtitle: "- Yali Network",
+      logo_path: "yali_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+        "https://drive.google.com/file/d/1H2di_t3mKbhsRw-oeMA1dDtQ5_AGTK42/view",
       alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+      color_code: "white",
     },
   ],
 };
@@ -454,43 +401,65 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many evolving startups as Developer, 3D Designer, and Project manager. I have also worked with some well established companies mostly as project Solution Devoloper. I love entrepreneurship and charity work, that is why I often create or take part in projects for needy communities.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          title: "Co-founder & Project Manager",
+          company: "Totally Design Corp",
+          company_url: "https://www.totallydesign.ml/",
+          logo_path: "totally_logo.png",
+          duration: "Nov 2018 - PRESENT",
+          location: "Bamako, Mali",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Totally Design is a startup that aims to provide innovative architectural and industrial design solutions through the use of technological tools and systems. We are working on a project to create a residential building for a community of poor fishermen. The project is almost finished and we are waiting for investors to start the construction.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Robotics Coach",
+          company: "Robots Mali",
+          company_url: "https://robotsmali.org/",
+          logo_path: "robotsmali_logo.png",
+          duration: "July 2018 - PRESENT",
+          location: "Bamako, Mali",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "I teach programming and Design thinking. I also report progress of the team I mentor at the general coaches meeting",
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Web Developer",
+          company: "Dessart Digital",
+          company_url: "https://ci.linkedin.com/company/dessart-studios",
+          logo_path: "dessart_logo.png",
+          duration: "June 2021 - PRESENT",
+          location: "Côte d'Ivoire",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "Dessart Digital is a talent-driven digital company that brings together incredible creatives, brand experts, business strategists, web and tech makers  from different backgrounds to work  collaboratively in an ego-free environment that breeds newness and innovation.",
+          color: "#fc1f20",
+        },
+        {
+          title: "French Translator",
+          company: "Anzisha Prize",
+          company_url: "https://anzishaprize.org/",
+          logo_path: "anzisha_logo.png",
+          duration: "Feb 2021 - June 2021",
+          location: "Johannesburg, South Africa",
+          description:
+            "The Anzisha Priza Program is a partnership between African Leadership Academy and the Mastercard Foundation that aims to fundamentally and significantly increase the number of very young entrepreneurs creating jobs in Africa.",
+          color: "#fc1f20",
+        },
+        {
+          title: "Writer",
+          company: "Self-employed",
+          company_url: "https://www.edilivre.com/g21-mamadou-k.html/",
+          logo_path: "g21_logo.png",
+          duration: "Feb 2019 - PRESENT",
+          location: "Bamako, Mali",
+          description:
+            "I love writing fiction novels that are always based on my perception of certain topics. In February 2020, I published my first book entitled G21.",
           color: "#fc1f20",
         },
       ],
@@ -499,17 +468,17 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
+          title: "IT Intern",
+          company: "African Leadership Academy",
           company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          logo_path: "ala_logo.png",
+          duration: "Nov 2020 - March 2021",
+          location: "Johannesburg, South Africa",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "I worked with the IT team to help students who had problems with their email, laptop, printer credentials or internet connection.",
           color: "#ee3c26",
         },
-        {
+        /*{
           title: "Data Science Intern",
           company: "Intel Indexer LLC",
           company_url:
@@ -520,24 +489,24 @@ const experience = {
           description:
             "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
           color: "#0071C5",
-        },
+        },*/
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
+          title: "Volunteer",
+          company: "Massira",
+          company_url: "https://massira.org/fr/about/",
+          logo_path: "massira_logo.png",
           duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          location: "Accra, Ghana",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "The African Community for Women across Sexual, Reproductive and Mental health.",
           color: "#4285F4",
         },
-        {
+        /*{
           title: "Microsoft Student Partner",
           company: "Microsoft",
           company_url: "https://www.microsoft.com/",
@@ -581,8 +550,98 @@ const experience = {
           description:
             "I am actively contributing to many opensource projects. I have contributed to projects of organisations like, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
           color: "#181717",
-        },
+        },*/
       ],
+    },
+  ],
+};
+//work liste
+
+const work = {
+  work: [
+    {
+      title: "Abana Africa",
+      subtitle: "- Web Development",
+      logo_path: "abana_mockup.png",
+      alt_name: "- PARC",
+      color_code: "transparent",
+    },
+    {
+      title: "Totally Design Corp",
+      subtitle: "- Web Development",
+      logo_path: "totally_mockup.png",
+      alt_name: "- Totally",
+      color_code: "transparent",
+    },
+    {
+      title: "Spirits Chocolat",
+      subtitle: "- Web Development",
+      logo_path: "chocolat_mockup.png",
+      alt_name: "- Chocolat",
+      color_code: "transparent",
+    },
+    {
+      title: "Femme Rurale",
+      subtitle: "- Solution Development",
+      logo_path: "femmerurale.jpg",
+      alt_name: "- PARC",
+      color_code: "transparent",
+    },
+    {
+      title: "Robotics Competition",
+      subtitle: "- Mentoring",
+      logo_path: "coachmk.jpg",
+      alt_name: "- PARC",
+      color_code: "transparent",
+    },
+    {
+      title: "Starts'Robot",
+      subtitle: "- Mentoring",
+      logo_path: "starsrobot.JPG",
+      alt_name: "- robot",
+      color_code: "transparent",
+    },
+    {
+      title: "Tech's Robot",
+      subtitle: "- Mentoring",
+      logo_path: "techrobot.JPG",
+      alt_name: "- robot",
+      color_code: "transparent",
+    },
+    {
+      title: "2018 Robotics Summer Camp Robot",
+      subtitle: "- Mentoring",
+      logo_path: "siratikela.JPG",
+      alt_name: "- robot",
+      color_code: "transparent",
+    },
+    {
+      title: "Tech's Robot",
+      subtitle: "- Mentoring",
+      logo_path: "robot_tech.JPG",
+      alt_name: "- Robot",
+      color_code: "transparent",
+    },
+    {
+      title: "Robotics Summer Camp",
+      subtitle: "- Mentoring",
+      logo_path: "summer_camp.JPG",
+      alt_name: "- Camp",
+      color_code: "transparent",
+    },
+    {
+      title: "Mali Start-Up Contest",
+      subtitle: "- Contest participant",
+      logo_path: "malistartup.jpg",
+      alt_name: "- Startup",
+      color_code: "transparent",
+    },
+    {
+      title: "MK-CHARITY(coming soon...)",
+      subtitle: "- Founder",
+      logo_path: "logomkld.gif",
+      alt_name: "- MK-CHARITY",
+      color_code: "transparent",
     },
   ],
 };
@@ -591,7 +650,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects use a wide variety of the latest technological tools. Whether it's in full stack development, robotics, or management, my projects are done with happiness 🤗, love ♥️, and 100% commitment 👌.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -606,27 +665,26 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "MK_image.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "You can contact me anytime for your needs. I will be more than happy to help you with bootstrap, React, Wordpress and Opensource projects. You can also contact me to get to know me and discuss ideas. ✔️♾️",
   },
-  blogSection: {
+  /* blogSection: {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
     link: "https://ashutoshhathidara.wordpress.com",
     avatar_image_path: "blogs_image.svg",
-  },
+  },*/
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    subtitle: "Kalaban Coro, Bamako, Mali",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/jZSv72Fd8h12SGk36",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8320758513",
+    subtitle: "+223 91596249",
   },
 };
 
@@ -643,4 +701,5 @@ export {
   projectsHeader,
   publicationsHeader,
   contactPageData,
+  work,
 };

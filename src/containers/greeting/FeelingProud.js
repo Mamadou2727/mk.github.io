@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import proud from "../../assests/images/proud.gif";
 
-class FeelingProud extends Component {
+class Feelingproud extends Component {
   render() {
     const theme = this.props.theme;
-    return <img src={proud} alt="proud" />;
+    return <img src={proud} alt="proud" style={{ color: theme.proud }} />;
   }
 }
 
-export default FeelingProud;
+export default Feelingproud;
