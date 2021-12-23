@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "masterPortfolio",
-  "homepage": ".",
+  "homepage": "https://mamadouk.me/",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
