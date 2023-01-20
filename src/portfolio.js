@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "Mamadou K.",
   nickname: "MKLD authentic",
   subTitle:
-    "A computer Science Student and Full Stack developer with focus on web development, design, program management, and coordinate with stakeholders",
+    "Young Entrepreneur, Impact-driven, Robotics & AI enthusiast, Founder of 27 ~ Group, General Manager of RITech",
   resumeLink:
-    "https://drive.google.com/file/d/1yTyWXjdmi3TFhV7XMkOb-sZ1HGUYIZZx/view?usp=sharing",
+    "https://drive.google.com/file/d/1ILqhczhkT75NEhwRkEF9cNoRJJu9sIeb/view?usp=sharing",
   portfolio_repository: "",
   githubProfile: "https://github.com/Mamadou2727",
 };
@@ -60,82 +60,64 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building resposive website front end using React/Bootstrap",
-        "⚡ Developing mobile applications front end using React Native",
-        "⚡ Creating application backend in Django",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
-          style: {
-            backgroundColor: "#transparent",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-      ],
-    },
-    {
-      title: "Robotics & 3D Design",
+      title: "Robotics & AI",
       fileName: "RoboticsImg",
       skills: [
-        "⚡ Developing 3D prototypes using computer-aided design and drafting (CADD) softwares ",
-        "⚡ Experience of working with python, VEX, SnapCad, Arduino, and SketchUP projects",
-        "⚡ Teaching basic robotics ",
+        "⚡ Develop machine learning models on Google Coral Dev Board using python and tensorflow",
+        "⚡ Build a real-time computer vision obstacle detector model for a robot",
+        "⚡ Analyze and Visualized datasets to be used in AI projects",
+        "⚡ Mentor University students to develop ROS( Robot Operating System) programs",
+        "⚡ Teach programming, mechanic, and Design thinking to High School and University students",
+        "⚡ Develop 3D prototypes using computer-aided design and drafting (CADD) softwares ",
       ],
       softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Microsoft Excel",
+          fontAwesomeClassname: "simple-icons:microsoftexcel",
+          style: {
+            backgroundColor: "transparent",
+            color: "#1D6F42",
+          },
+        },
+        {
+          skillName: "Power BI",
+          fontAwesomeClassname: "simple-icons:powerbi",
+          style: {
+            backgroundColor: "transparent",
+            color: "#CEBD45",
+          },
+        },
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "simple-icons:tensorflow",
+          style: {
+            backgroundColor: "transparent",
+            color: "#f6bd3a",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "ROS",
+          fontAwesomeClassname: "simple-icons:ros",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
         {
           skillName: "Arduino",
           fontAwesomeClassname: "logos-arduino",
@@ -151,16 +133,9 @@ const skills = {
             color: "#D00000",
           },
         },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
       ],
     },
+
     /*   Reserve section
     {
       title: "Cloud Infra-Architecture",
@@ -233,21 +208,22 @@ const skills = {
   */
 
     {
-      title: "Project management",
+      title: "Entrepreneurship, Management",
       fileName: "ManagementImg",
       skills: [
-        "⚡ Developing and managing project budgets, schedules, and timelines",
-        "⚡ Making timely decisions based on facts, circumstances, and needs",
-        "⚡ Preparing and delivering presentations",
-        "⚡ Determining the validity of project progress",
-        "⚡ Documenting projects",
+        "⚡ Develop and build companies",
+        "⚡ Develop funding plan & strategy, and preapare the company for funding series",
+        "⚡ Make partnerships strategies",
+        "⚡ Recruit talented team members",
+        "⚡ Manage daily operations",
+        "⚡ Design strategy and set goals for growth",
       ],
       softwareSkills: [
         {
           skillName: "Asana",
           fontAwesomeClassname: "simple-icons:asana",
           style: {
-            color: "#FF2BC2",
+            color: "#fc636b",
           },
         },
         {
@@ -259,9 +235,77 @@ const skills = {
         },
         {
           skillName: "Microsoft Office",
-          fontAwesomeClassname: "simple-icons:microsoft",
+          fontAwesomeClassname: "simple-icons:microsoftoffice",
           style: {
-            color: "#FF7C00",
+            color: "#F25022",
+          },
+        },
+      ],
+    },
+    {
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building resposive website front end using React/Bootstrap",
+        "⚡ Developing mobile applications front end using React Native",
+        "⚡ Creating application backend in Django",
+      ],
+      softwareSkills: [
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#CC6699",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            backgroundColor: "#transparent",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Yarn",
+          fontAwesomeClassname: "simple-icons:yarn",
+          style: {
+            color: "#2C8EBB",
           },
         },
       ],
@@ -401,18 +445,29 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as Developer, 3D Designer, and Project manager. I have also worked with some well established companies mostly as project Solution Devoloper. I love entrepreneurship and charity work, that is why I often create or take part in projects for needy communities.",
+    "I have worked with many evolving startups as Consultant, 3D Designer, and Project manager. I have also worked with some well established companies mostly as project Solution Devoloper. I love entrepreneurship and charity work, that is why I often create or take part in projects for needy communities.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Co-founder & Project Manager",
+          title: "Founder & General Manager of RITech(Subsidiary)",
+          company: "27 ~ Group",
+          company_url: "https://www.totallydesign.ml/",
+          logo_path: "27_group.png",
+          duration: "Aug 2018 - PRESENT",
+          location: "Bamako, Mali",
+          description:
+            "27 ~ Group is a holding company operating in different sectors and which main mission is to provide the African Continent with Innovative Technologies. It has two subsidiaries: RITech operating in the Robotics field, and Genesis Investment operating in the finance field.",
+          color: "#0879bf",
+        },
+        {
+          title: "Co-founder, Former Product Manager & Board Member",
           company: "Totally Design Corp",
           company_url: "https://www.totallydesign.ml/",
           logo_path: "totally_logo.png",
-          duration: "Nov 2018 - PRESENT",
+          duration: "Aug 2018 - PRESENT",
           location: "Bamako, Mali",
           description:
             "Totally Design is a startup that aims to provide innovative architectural and industrial design solutions through the use of technological tools and systems. We are working on a project to create a residential building for a community of poor fishermen. The project is almost finished and we are waiting for investors to start the construction.",
@@ -560,6 +615,34 @@ const experience = {
 const work = {
   work: [
     {
+      title: "Robotics",
+      subtitle: "- RITech",
+      logo_path: "f1.png",
+      alt_name: "- Robot",
+      color_code: "transparent",
+    },
+    {
+      title: "Robotics",
+      subtitle: "- RITech",
+      logo_path: "m1.png",
+      alt_name: "- Robot",
+      color_code: "transparent",
+    },
+    {
+      title: "Robotics",
+      subtitle: "- RITech",
+      logo_path: "m2.png",
+      alt_name: "- Robot",
+      color_code: "transparent",
+    },
+    {
+      title: "Robotics",
+      subtitle: "- RITech",
+      logo_path: "m3.png",
+      alt_name: "- Robot",
+      color_code: "transparent",
+    },
+    {
       title: "Abana Africa",
       subtitle: "- Web Development",
       logo_path: "abana_mockup.png",
@@ -640,6 +723,13 @@ const work = {
       title: "MK-CHARITY(coming soon...)",
       subtitle: "- Founder",
       logo_path: "logomkld.gif",
+      alt_name: "- MK-CHARITY",
+      color_code: "transparent",
+    },
+    {
+      title: "Genesis Investment",
+      subtitle: "- Founder",
+      logo_path: "genesis_logo.png",
       alt_name: "- MK-CHARITY",
       color_code: "transparent",
     },
