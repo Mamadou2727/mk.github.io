@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "MamadouPortfolio",
-  "homepage": "https://mamadouk.live/",
+  "homepage": "https://mamadouk.live",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
